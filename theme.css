@@ -1,0 +1,81 @@
+header, section, footer {
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-bottom: 40px;
+}
+
+header {
+	border-bottom: 1px solid #484848;
+}
+
+section {
+	border-bottom: 1px solid rgba(72,72,72,0.3);
+	width:80%;
+
+}
+
+h1, h2, p {
+	font-family:Lato;
+	color:#484848;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 2px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+a {
+	text-decoration: none;
+	color:#484848;
+}
+
+a:hover {
+	color:#4990E2;
+}
+
+.header-line {
+	border: 1px solid #484848;
+}
+
+.lines {
+	border: 1px solid;
+	border-color: rgba(72,72,72,0.60);
+	width: 80%;
+	display: inline-block;
+}
+
+.subtitle {
+	margin-top:0px;
+	font-size: 30px;
+}
+
+.second {
+	color:#4990E2;
+	font-weight: 300;
+}
+	
+p {
+	font-weight: 300;
+	font-size: 20px;	
+}
+
+@media screen and (max-width: 700px)
+{
+	header,section,footer{
+		margin-left:5px;
+		margin-right:5px;
+		width: 100%;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	.subtitle {
+		font-size: 20px;
+	}
+}
